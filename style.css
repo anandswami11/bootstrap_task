@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+}
+.main-row{
+    width: 90%;
+    margin: auto;
+}
+.main{
+    width: 60%;
+    margin: auto;
+}
+.main h1, h2{
+    text-align: center;
+}
+.main h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #124265;
+    font-family: "Poppins", sans-serif;
+}
+.main h2{
+    color: #5e5e5e;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.link1{
+    text-align: center;
+    margin-top: 30px;
+}
+.box{
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+   font-weight: 700;
+   font-size: 18px; 
+   color: #192f77;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.box1:hover .title{
+    color: #2487ce;
+}
+.box1{
+    width: 23.3%;
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+
+}
+.box1:hover {
+    transform: scale(1.08);
+}
+.box p{
+     font-size: 16px;
+     line-height: 28px;
+    padding: 10px 15px;
+    color: #444444;
+}
+@media screen and (max-width: 768px){
+
+    .main{
+        width: 90%;
+    }
+   
+    .main h1{
+    font-size: 28px;
+   }
+    .box{
+        flex-wrap: wrap;
+        }
+        .box1{
+            width: 48%;
+            margin: 20px 0px;
+        }
+
+}
+@media screen and (max-width: 568px) {
+    .box1{
+        width: 90%;
+
+    }
+}
